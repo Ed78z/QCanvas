@@ -1,0 +1,80 @@
+object Form1: TForm1
+  Left = 497
+  Height = 698
+  Top = 234
+  Width = 640
+  Caption = 'TCanvas vs TQCanvas Comparison'
+  ClientHeight = 698
+  ClientWidth = 640
+  LCLVersion = '4.8.0.0'
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  object Label1: TLabel
+    Left = 16
+    Height = 15
+    Top = 23
+    Width = 222
+    Caption = 'GDI Shapes (Aliased, No Alpha, No Grad)'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 328
+    Height = 15
+    Top = 23
+    Width = 296
+    Caption = 'TQCanvas Shapes (Anti-Aliasing, Real Alpha, Gradient)'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Image1: TImage
+    Left = 16
+    Height = 300
+    Top = 40
+    Width = 300
+  end
+  object Image2: TImage
+    Left = 328
+    Height = 300
+    Top = 40
+    Width = 300
+  end
+  object Label4: TLabel
+    Left = 16
+    Height = 15
+    Top = 359
+    Width = 215
+    Caption = 'GDI Rotated Text (Jagged, 100% Solid)'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 328
+    Height = 15
+    Top = 359
+    Width = 296
+    Caption = 'TQCanvas Rotated Text (Vector Anti-Aliasing + Alpha)'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Panel1: TPanel
+    Left = 16
+    Height = 300
+    Top = 376
+    Width = 300
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    TabOrder = 0
+    OnPaint = Panel1Paint
+  end
+  object Panel2: TPanel
+    Left = 328
+    Height = 300
+    Top = 376
+    Width = 300
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    TabOrder = 1
+    OnPaint = Panel2Paint
+  end
+end

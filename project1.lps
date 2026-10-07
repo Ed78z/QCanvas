@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Release">
+      <Item Name="Release">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="project1"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <OtherUnitFiles Value="AggPasMod;..\QUnits"/>
+            <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <SmartLinkUnit Value="True"/>
+            <Optimizations>
+              <OptimizationLevel Value="3"/>
+            </Optimizations>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+              <RunWithoutDebug Value="True"/>
+              <StripSymbols Value="True"/>
+            </Debugging>
+            <LinkSmart Value="True"/>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+        </CompilerOptions>
+      </Item>
+    </BuildModes>
+    <Units>
+      <Unit>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="44" Y="7"/>
+        <UsageCount Value="112"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="8" Y="11"/>
+        <UsageCount Value="112"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit1.lfm"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <CursorPos X="4" Y="49"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\Agg2D.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="43"/>
+        <CursorPos X="77" Y="84"/>
+        <UsageCount Value="32"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggMath.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="79" Y="11"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggPathStorage.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="97"/>
+        <CursorPos X="21" Y="125"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggBezierArc.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="15"/>
+        <CursorPos X="3" Y="37"/>
+        <UsageCount Value="7"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggConvStroke.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="15"/>
+        <CursorPos X="3" Y="33"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggVcgenStroke.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="17"/>
+        <CursorPos X="3" Y="35"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggConvDash.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="15"/>
+        <CursorPos X="3" Y="33"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggConvCurve.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <CursorPos X="3" Y="31"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggRendererBase.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="14"/>
+        <CursorPos X="3" Y="32"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggPixelFormat.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="27" Y="50"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggRendererScanLine.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="23"/>
+        <CursorPos X="3" Y="41"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggSpanGenerator.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <CursorPos X="3" Y="31"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggRasterizerCompoundAA.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="16"/>
+        <CursorPos X="3" Y="34"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggRasterizerScanlineClip.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <CursorPos X="3" Y="31"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggSpanGradient.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="20"/>
+        <CursorPos X="3" Y="38"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggSpanInterpolatorLinear.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="15"/>
+        <CursorPos X="3" Y="33"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggSpanImageFilterRgba.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="17"/>
+        <CursorPos X="3" Y="35"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggSpanImageResampleRgba.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="14"/>
+        <CursorPos X="3" Y="32"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggRasterizerScanLineAA.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="34"/>
+        <CursorPos X="3" Y="52"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggScanlineUnpacked.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="14"/>
+        <CursorPos X="3" Y="32"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggFontEngine.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggScanlineStorageAA.pas"/>
+        <UnitName Value="AggScanLineStorageAA"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="18"/>
+        <CursorPos X="3" Y="36"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggPixelFormatRgba.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1207"/>
+        <CursorPos X="61" Y="1230"/>
+        <UsageCount Value="11"/>
+      </Unit>
+      <Unit>
+        <Filename Value="QCanvas.pas"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="23" Y="10"/>
+        <UsageCount Value="55"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggBasics.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1285"/>
+        <CursorPos X="36" Y="1320"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggImageFilters.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="6"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggConvContour.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="38"/>
+        <CursorPos X="24" Y="67"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggTransAffine.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="79" Y="11"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggFontWin32TrueType.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="640"/>
+        <CursorPos X="5" Y="657"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1046"/>
+        <CursorPos X="15" Y="1052"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\packages\fcl-image\src\fpcanvas.pp"/>
+        <UnitName Value="FPCanvas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="488"/>
+        <CursorPos X="3" Y="241"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\packages\fcl-image\src\fpinterpolation.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="52"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggCompiler.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="30"/>
+        <CursorPos X="40" Y="44"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\math.pp"/>
+        <UnitName Value="Math"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="819"/>
+        <CursorPos X="61" Y="847"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\inc\mathh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="89"/>
+        <CursorPos X="14" Y="111"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\lclintf.pas"/>
+        <UnitName Value="LCLIntf"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="34"/>
+        <CursorPos X="57" Y="20"/>
+        <UsageCount Value="4"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\lcltype.pp"/>
+        <UnitName Value="LCLType"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2244"/>
+        <CursorPos X="17" Y="2281"/>
+        <UsageCount Value="4"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\00000000000\AggPasMod\Source\3rd Party\Expat\Expat.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="344"/>
+        <CursorPos X="48" Y="377"/>
+        <UsageCount Value="4"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\00000000000\AggPasMod\Source\3rd Party\Expat\ExpatExternal.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="103"/>
+        <CursorPos X="71" Y="121"/>
+        <UsageCount Value="4"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\interfacebase.pp"/>
+        <UnitName Value="InterfaceBase"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="144"/>
+        <CursorPos X="3" Y="124"/>
+        <UsageCount Value="4"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\include\winapih.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="223"/>
+        <UsageCount Value="4"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\include\lclintfh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="82"/>
+        <UsageCount Value="4"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\intfgraphics.pas"/>
+        <UnitName Value="IntfGraphics"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="106"/>
+        <CursorPos Y="115"/>
+        <UsageCount Value="5"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggFontFreetype.pas"/>
+        <UnitName Value="AggFontFreeType"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="79" Y="11"/>
+        <UsageCount Value="17"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggFontFreetypeLib.pas"/>
+        <UnitName Value="AggFontFreeTypeLib"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="79" Y="11"/>
+        <UsageCount Value="33"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AggPasMod\AggPathStorageInteger.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="104"/>
+        <CursorPos X="23" Y="111"/>
+        <UsageCount Value="16"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\QUnits\QFont.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="97"/>
+        <CursorPos X="79" Y="4"/>
+        <UsageCount Value="28"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\QUnits\QLanguages.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="2"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="23">
+      <Position>
+        <Filename Value="QCanvas.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="QCanvas.pas"/>
+        <Caret Line="1023" Column="54" TopLine="991"/>
+      </Position>
+      <Position>
+        <Filename Value="QCanvas.pas"/>
+        <Caret Line="76" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="QCanvas.pas"/>
+        <Caret Line="750" TopLine="728"/>
+      </Position>
+      <Position>
+        <Filename Value="QCanvas.pas"/>
+        <Caret Line="947" Column="18" TopLine="924"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="23" Column="45"/>
+      </Position>
+      <Position>
+        <Filename Value="QCanvas.pas"/>
+        <Caret Line="1007" Column="47" TopLine="978"/>
+      </Position>
+      <Position>
+        <Filename Value="QCanvas.pas"/>
+        <Caret Line="32" Column="70"/>
+      </Position>
+      <Position>
+        <Filename Value="QCanvas.pas"/>
+        <Caret Line="9" Column="60"/>
+      </Position>
+      <Position>
+        <Filename Value="QCanvas.pas"/>
+        <Caret Line="949" Column="59" TopLine="928"/>
+      </Position>
+      <Position>
+        <Filename Value="QCanvas.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="QCanvas.pas"/>
+        <Caret Line="1173" Column="72" TopLine="1136"/>
+      </Position>
+      <Position>
+        <Filename Value="QCanvas.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="QCanvas.pas"/>
+        <Caret Line="407" Column="74" TopLine="400"/>
+      </Position>
+      <Position>
+        <Filename Value="QCanvas.pas"/>
+        <Caret Line="1553" Column="60" TopLine="1543"/>
+      </Position>
+      <Position>
+        <Filename Value="QCanvas.pas"/>
+        <Caret Line="444" Column="68" TopLine="413"/>
+      </Position>
+      <Position>
+        <Filename Value="QCanvas.pas"/>
+        <Caret Line="1588" Column="20" TopLine="1516"/>
+      </Position>
+      <Position>
+        <Filename Value="QCanvas.pas"/>
+        <Caret Line="510" Column="97" TopLine="491"/>
+      </Position>
+      <Position>
+        <Filename Value="QCanvas.pas"/>
+        <Caret Line="1603" Column="54" TopLine="1565"/>
+      </Position>
+      <Position>
+        <Filename Value="QCanvas.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="QCanvas.pas"/>
+        <Caret Line="1562" Column="68" TopLine="1544"/>
+      </Position>
+      <Position>
+        <Filename Value="QCanvas.pas"/>
+        <Caret Line="1244" Column="47" TopLine="1227"/>
+      </Position>
+      <Position>
+        <Filename Value="QCanvas.pas"/>
+        <Caret Line="1243" Column="77" TopLine="1227"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="19" Column="63"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
